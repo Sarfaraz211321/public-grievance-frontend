@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: "https://public-grievance-backend-1.onrender.com", // backend URL
+  baseURL: "https://public-grievance-backend-1.onrender.com/api", // backend URL
 });
 
 // Add token to headers if logged in
